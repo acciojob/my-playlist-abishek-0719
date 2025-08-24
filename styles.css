@@ -1,45 +1,81 @@
-/*  your css code here. If applicable */
-body{
-	background-color:rgb(204, 204, 204);
+/* Body */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
-h1,h2,h3{
-	text-align:center;
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    margin: 10px 0;
 }
-.first{
-	background-color:white;
-	border:1px solid black;
-	border-radius:10px;
-	width: 640px;
-    height: 130px;
-	align-items:center;
-	justify-content:center;
-}
-.second{
-	 background-color: white;
-    margin: 10px 15px 20px 25px;
-    border-radius: 10px;
-    height: 550px;
+
+/* Songs playlist container */
+.first {
+    background-color: white;
     border: 1px solid black;
-
-    display: flex;              /* Make flex container */
-    flex-direction: column;     /* Stack elements vertically */
-    align-items: center;        /* Center horizontally */
-    justify-content: center;    /* Center vertically */
-    gap: 20px;      
-}
-video{
-	justify-content:center;
-	align-items:center;
-    right: 100%;
-	background-color: rgb(255, 255, 255); 
-	padding: border-radius;
-}
-audio{
-	background-color: rgb(255, 255, 255); 
-	padding: border-radius;
-}
-ul li{
-	text-decoration-line:none;
-	list-style-type:none;
+    border-radius: 10px;
+    width: 640px;
+    margin: 20px auto; /* Center container */
+    padding: 10px;
 }
 
+/* Playlist items */
+ul li {
+    list-style-type: none; /* Remove bullets */
+    margin: 5px 0;
+}
+
+/* Links inside playlist */
+ul li a {
+    text-decoration: none; /* Remove underline */
+    color: blue;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Video and Audio container */
+.second {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 640px;
+    margin: 20px auto; /* Center container */
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center video */
+    gap: 20px;
+}
+
+/* Video styling */
+video {
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Audio container with left-aligned title */
+.audio-container {
+    width: 100%;            /* Full width for left alignment */
+}
+
+.song-title {
+    text-align: left;        /* Move title to the left */
+    
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+
+audio {
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    margin-left: 10px;       /* Align audio slightly with title */
+}
