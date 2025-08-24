@@ -49,7 +49,7 @@ ul li a:hover {
 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center video */
+    align-items: center; /* Center video horizontally */
     gap: 20px;
 }
 
@@ -59,23 +59,20 @@ video {
     background-color: white;
 }
 
-/* Audio container with left-aligned title */
-.audio-container {
-    width: 100%;            /* Full width for left alignment */
-}
-
+/* Song title (left aligned) */
 .song-title {
-    text-align: left;        /* Move title to the left */
-    
+    width: 100%;
+    text-align: left;       /* Align left */
+    font-weight: bold;
     margin-bottom: 10px;
-    margin-left: 10px;
-    font-size: 15px;
+    margin-left: 10px;     /* Small padding from left edge */
+    font-size: 18px;
 }
 
-
+/* Audio styling */
 audio {
     border-radius: 10px;
     background-color: white;
     display: block;
-    margin-left: 10px;       /* Align audio slightly with title */
+    margin-left: 10px;     /* Align with song title */
 }
