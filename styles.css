@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(204, 204, 204);
+}
+h1,h2,h3{
+	text-align:center;
+}
+.first{
+	background-color:white;
+	border:1px solid black;
+	border-radius:10px;
+	width: 640px;
+    height: 130px;
+	align-items:center;
+	justify-content:center;
+}
+.second{
+	 background-color: white;
+    margin: 10px 15px 20px 25px;
+    border-radius: 10px;
+    height: 550px;
+    border: 1px solid black;
+
+    display: flex;              /* Make flex container */
+    flex-direction: column;     /* Stack elements vertically */
+    align-items: center;        /* Center horizontally */
+    justify-content: center;    /* Center vertically */
+    gap: 20px;      
+}
+video{
+	justify-content:center;
+	align-items:center;
+    right: 100%;
+	background-color: rgb(255, 255, 255); 
+	padding: border-radius;
+}
+audio{
+	background-color: rgb(255, 255, 255); 
+	padding: border-radius;
+}
+ul li{
+	text-decoration-line:none;
+	list-style-type:none;
+}
+
