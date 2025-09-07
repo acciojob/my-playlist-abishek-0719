@@ -15,9 +15,9 @@ h1, h2 {
 /* Songs playlist container */
 .first {
     background-color: white;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px;
-    width: 640px;
+    width: 750px;
 	
     margin: 20px auto; /* Center container */
     padding: 10px;
@@ -44,7 +44,7 @@ ul li a:hover {
 /* Video and Audio container */
 .second {
     background-color: white;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     width: 640px;
     margin: 20px auto; /* Center container */
